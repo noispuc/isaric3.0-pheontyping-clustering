@@ -1,0 +1,39 @@
+site_name: ISARIC 3.0 RAPS Analytics
+site_description: Ferramentas analíticas para modelagem preditiva, inferência e pré-processamento de dados clínicos.
+site_author: ISARIC HUB South America
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - content.code.tabs
+    - content.code.highlight
+    - content.code.mermaid
+  language: pt
+
+nav:
+  - Home: index.md
+  - Latent Models:
+      - LCA & LPA Overview: latent_models.md
+      - Stepmix Tutorial: stepmix_usage.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
+  - pymdownx.snippets
+  - pymdownx.mark
+  - pymdownx.highlight
+  - pymdownx.arithmatex
+
+extra:
+  mermaid: true
+
+plugins:
+  - search
