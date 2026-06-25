@@ -41,11 +41,12 @@ This usability enhancement, specifically for the case of LCA (Latent Class Analy
 - Graphical reports on class descriptives.
 
 ## Example code
-1. Using the `optimize_stepMix()` class to conduct class enumeration for Latent Class Analysis
-2. exploring the grid search results from `optimize_stepMix()` class to actually define on class number.
-3. Conducting bootstraped likelihood ratio test and getting other bootstrapped methods for class enumeration
-4. Continuing bootstrap process when it crashes because issues like energy shortage
-5. 
+
+1. [Using the `optimize_stepMix()` class to conduct class enumeration for Latent Class Analysis](jupyterFiles/1_gridSearch.ipynb)
+2. [exploring the grid search results from `optimize_stepMix()` class to actually define on class number.](jupyterFiles/1b_Inspect_gridSearchResults.ipynb)
+3. [Conducting bootstraped likelihood ratio test and getting other bootstrapped methods for class enumeration](jupyterFiles/2_Bootstrap5.ipynb)
+4. [Continuing bootstrap process when it crashes because issues like energy shortage](jupyterFiles/2b_Bootstrap5_restoreAndContinue.ipynb) 
+
 
 ## 🛠️ Technologies Used
 
