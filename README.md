@@ -15,8 +15,9 @@ Adjusted codes for grid search, and bootstrapping for latent class analysis opti
     —  reports graphically the major metrics - AIC, BIC, SABIC, CAIC, entropy and relative entropy -,
     -  alongside the information on convergence status for each number of classes k tested.
 - the bootstrapping method also was improved to
-    -  store the metrics - AIC, BIC, SABIC, CAIC, entropy and relative entropy -
-    -  and the percentage of convergence,
+    -  store the metrics - AIC, BIC, SABIC, CAIC, entropy and relative entropy
+    -  bootstrapped selection rate for metrics AIC, BIC,
+    -  the percentage of convergence,
     -  and display them in a visual way
     -  so users can have all the information together to enable users to make a guided decision on which number of classes k to use
 - visualization of the results
