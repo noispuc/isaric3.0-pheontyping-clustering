@@ -15,8 +15,9 @@ Adjusted codes for grid search, and bootstrapping for latent class analysis opti
     —  reports graphically the major metrics - AIC, BIC, SABIC, CAIC, entropy and relative entropy -,
     -  alongside the information on convergence status for each number of classes k tested.
 - the bootstrapping method also was improved to
-    -  store the metrics - AIC, BIC, SABIC, CAIC, entropy and relative entropy -
-    -  and the percentage of convergence,
+    -  store the metrics - AIC, BIC, SABIC, CAIC, entropy and relative entropy
+    -  bootstrapped selection rate for metrics AIC, BIC,
+    -  the percentage of convergence,
     -  and display them in a visual way
     -  so users can have all the information together to enable users to make a guided decision on which number of classes k to use
 - visualization of the results
@@ -39,6 +40,13 @@ This usability enhancement, specifically for the case of LCA (Latent Class Analy
     - Access to visual and tabulated reports on the results of sequential runs.
     
 - Graphical reports on class descriptives.
+
+## Example code
+
+1. [Using the `optimize_stepMix()` class to conduct class enumeration for Latent Class Analysis](jupyterFiles/1_gridSearch.ipynb)
+2. [exploring the grid search results from `optimize_stepMix()` class to actually define on class number.](jupyterFiles/1b_Inspect_gridSearchResults.ipynb)
+3. [Conducting bootstraped likelihood ratio test and getting other bootstrapped methods for class enumeration](jupyterFiles/2_Bootstrap5.ipynb)
+4. [Continuing bootstrap process when it crashes because issues like energy shortage](jupyterFiles/2b_Bootstrap5_restoreAndContinue.ipynb) 
 
 
 ## 🛠️ Technologies Used
